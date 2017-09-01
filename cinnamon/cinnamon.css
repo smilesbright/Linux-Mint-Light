@@ -302,7 +302,7 @@ StScrollBar StButton#vhandle:hover
 
 #panel {
     color: #ffffff;
-    background-color: rgba(190,190,190,1); /* default line missing */ /* 40,40,40,0.7 */
+    background-color: rgba(170,170,170,1); /* default line missing */ /* 40,40,40,0.7 */
     font-size: 9pt;
     font-weight: normal;
     height: 27px;
@@ -390,9 +390,9 @@ StScrollBar StButton#vhandle:hover
 
 .panel-top,
 .panel-bottom {
-    /*background-gradient-direction: vertical;
-    background-gradient-start: rgba(70,70,70,0.9);
-    background-gradient-end: rgba(70,70,70,0.9);*/
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(170,170,170,0.9);
+    background-gradient-end: rgba(165,165,165,0.9);
     box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.5); /* box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.5); */
 }
 
@@ -694,6 +694,17 @@ StScrollBar StButton#vhandle:hover
   border-radius: 4px;
   color: #CCCCCC;
 }
+
+
+/* ===================================================================
+ * System Tray Applet
+ * ===================================================================*/
+
+.systray {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
 
 /* ===================================================================
  * Date applet
@@ -1727,6 +1738,8 @@ StScrollBar StButton#vhandle:hover
 .window-list-box {
     spacing: 3px;
     padding-top: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .window-list-box.vertical {
@@ -1746,8 +1759,8 @@ StScrollBar StButton#vhandle:hover
 .window-list-item-box {
     color: rgba(2,2,2,1.0); /* rgba(255,255,255,1.0) */
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(190,190,190,0.5);
-    background-gradient-end: rgba(140,140,140,0.5);
+    background-gradient-start: rgba(200,200,200,0.5);
+    background-gradient-end: rgba(150,150,150,0.5);
     box-shadow: inset 0px 0px 0px 1px rgba(80,80,80,0.5);
     border-radius: 4px 4px 0px 0px;
     padding: 1px;
@@ -1774,9 +1787,9 @@ StScrollBar StButton#vhandle:hover
 .window-list-item-box:checked,
 .window-list-item-box:focus  {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(116,116,116,0.5); /* 114,114,114,0.5 */
-    background-gradient-end: rgba(116,116,116,0.5); /* 64,64,64,0.5 */
-    box-shadow: inset 0px 0px 0px 1px rgba(100,100,100,0.5);
+    background-gradient-start: rgba(140,140,140,0.5); /* 114,114,114,0.5 */
+    background-gradient-end: rgba(110,110,110,0.5); /* 64,64,64,0.5 */
+    box-shadow: inset 0px 0px 0px 1px rgba(100,100,100,0.56);
     border-radius: 4px 4px 0px 0px;
 }
 
@@ -2038,7 +2051,7 @@ StScrollBar StButton#vhandle:hover
 .applet-box {
     padding-left: 3px;
     padding-right: 3px;
-    color: #444;
+    color: #333;
     /* text-shadow: black 0px 0px 2px;*/
 }
 
@@ -2067,7 +2080,7 @@ StScrollBar StButton#vhandle:hover
     /*text-shadow: black 0px 0px 5px;  white 0px 0px 5px */
 }
 .applet-icon {
-    color: #ccc;
+    color: #333; /* #ccc */
     icon-size: 22px;
 }
 .applet-icon:hover,
