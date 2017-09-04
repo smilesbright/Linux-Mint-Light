@@ -2070,7 +2070,7 @@ StScrollBar StButton#vhandle:hover
 
 .applet-label {
     font-weight: medium; /* bold */
-    color: #333; /* #ccc */
+    color: #161616; /* #ccc */
 }
 .applet-label:hover,
 .applet-label:checked,
