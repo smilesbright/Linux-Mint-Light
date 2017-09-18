@@ -302,7 +302,7 @@ StScrollBar StButton#vhandle:hover
 
 #panel {
     color: #ffffff;
-    background-color: rgba(170,170,170,1); /* default line missing */ /* 40,40,40,0.7 */
+    background-color: rgba(165,165,165,1); /* default line missing */ /* 40,40,40,0.7 */
     font-size: 9pt;
     font-weight: normal;
     height: 27px;
@@ -1757,7 +1757,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .window-list-item-box {
-    color: rgba(2,2,2,1.0); /* rgba(255,255,255,1.0) */
+    color: rgba(2,2,2,1.0);
     background-gradient-direction: vertical;
     background-gradient-start: rgba(200,200,200,0.5);
     background-gradient-end: rgba(150,150,150,0.5);
