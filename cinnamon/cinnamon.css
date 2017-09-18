@@ -1787,8 +1787,8 @@ StScrollBar StButton#vhandle:hover
 .window-list-item-box:checked,
 .window-list-item-box:focus  {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(150,150,150,1); /* 114,114,114,0.5 */
-    background-gradient-end: rgba(135,135,135,1); /* 64,64,64,0.5 */
+    background-gradient-start: rgba(153,153,153,1); /* 114,114,114,0.5 */
+    background-gradient-end: rgba(138,138,138,1); /* 64,64,64,0.5 */
     box-shadow: inset 0px 0px 0px 1px rgba(110,110,110,0.5);
     border-radius: 4px 4px 0px 0px;
 }
